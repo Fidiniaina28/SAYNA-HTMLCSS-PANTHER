@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'beyno';
+    src: url(../Police/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: 'cantarell';
+    src: url(../Police/Cantarell/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'panthera';
+    src: url(../Police/Panthera/panthera.ttf);
+}
+@font-face {
+    font-family: 'wakanda';
+    src: url(../Police/Wakanda/wakanda.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+body{
+    background-image: url("../Illustrations + Logo/All pages/arrière_plan.png");
+    color: white;
+    font-family: 'cantarell';
+    font-size: 16px;
+}
+h1{
+    font-family: 'beyno';
+    font-size: 65px;
+    color: #9e91b7;
+}
+h6{
+    font-family: 'wakanda';
+    font-size: 30px;
+    color: #9e91b7;
+    margin: 15px 0;
+}
+
+/*--------------- HEADER ---------------*/
+nav{
+    display: flex;
+}
+.logonav{
+    display: flex;
+    padding: 35px;
+}
+.logonav:hover{
+    -webkit-filter: invert(100%) sepia(100%) saturate(1680%) hue-rotate(270deg) brightness(100%) contrast(104%);
+            filter: invert(100%) sepia(100%) saturate(1680%) hue-rotate(270deg) brightness(100%) contrast(104%);
+}
+.X{
+    margin: 12px 8px;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 55%;
+}
+.navAccueil, .navWakanda, .navEnigme{
+    margin: 0 15%;
+    color: white;
+    text-decoration: none;
+    font-family: 'beyno';
+    font-size: 21px;
+}
+.navAccueil:hover{
+    text-decoration: underline;
+}
+.navEnigme:hover{
+    text-decoration: underline;
+}
+.navWakanda{
+    color: #9e91b7;
+    text-decoration: underline;
+}
+
+/*--------------- HERO ---------------*/
+#hero{
+    background-image: url("../Illustrations + Logo/Wakanda/Pantherwakanda1.png");
+    background-position: top center;
+    height: 1000px;
+    position: absolute;
+    top: 20px;
+    pointer-events: none;
+}
+.grandTitre{
+    width: 50%;
+    height: 200px;
+    margin-top: 410px;
+    margin-left: 100px;
+}
+.texteHero{
+    width: 65%;
+}
+
+/*--------------- CONTENU ---------------*/
+#contenu{
+    margin-top: 870px;
+    height: 2450px;
+}
+.background{
+    position: absolute;
+    opacity: 0.2;
+}
+.contenuGauche{
+    float: left;
+    width: 50%;
+    height: 2200px;
+    margin-top: 180px;
+}
+.contenuDroite{
+    float: right;
+    width: 50%;
+    height: 2200px;
+    margin-top: 180px;
+}
+.texte{
+    margin: 30px 60px;
+}
+.texte p{
+    width: 95%;
+}
+h2{
+    font-family: 'beyno';
+    font-size: 32px;
+    color: #9e91b7;
+    margin-top: 45px;
+    margin-bottom: 18px;
+}
+.video{
+    width: 95%;
+    height: 400px;
+}
+.image{
+    margin-top: 40px;
+}
+
+/*--------------- FOOTER ---------------*/
+#footer{
+    color: white;
+    background-image: url("../Illustrations + Logo/All pages/back_footer.png");
+    height: 690px;
+    position:center;
+}
+.gauche{
+    float: left;
+    width: 40%;
+    height: 600px;
+}
+.bleu{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #07338c98;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.violet{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #df99f277;
+    position: absolute;
+    left: 490px;
+    top: 388%;
+}
+.violet:hover{
+    width: 270px;
+    height: 270px;
+    .marvel{
+        width: 180px;
+    }
+}
+.blanc{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #f2cef2a8;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+.marvel{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+.droite{
+    float: right;
+    width: 60%;
+    height: 600px;
+    display: block;
+}
+h4{
+    margin: 30px 00px;
+}
+.pagesFooter{
+    float: left;
+    margin: 170px;
+}
+.aProposFooter, .wakandaFooter{
+    color: white;
+    text-decoration: none;
+}
+.aProposFooter:hover, .wakandaFooter:hover{
+    text-decoration: underline;
+}
+.retrouvez-nous{
+    float: right;
+    margin: 170px 80px;
+    width: 400px;
+}
+.facebook, .instagram, .twiter, .tiktok{
+    margin: 0 10px;
+}
+.facebook:hover, .instagram:hover, .twiter:hover, .tiktok:hover{
+    width: 15%;
+}
+.politique{
+    clear: both;
+    margin-left: 170px;
+}
